@@ -1,6 +1,6 @@
-package com.example.example_mod.api.damagesystem;
+package com.irosueun.firstaid.api.damagesystem;
 
-import com.example.example_mod.api.enums.EnumPlayerPart;
+import com.irosueun.firstaid.api.enums.EnumPlayerPart;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.world.World;

@@ -32,7 +32,7 @@ import java.util.List;
 import static net.minecraft.world.gen.feature.OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES;
 import static net.minecraft.world.gen.feature.OreConfiguredFeatures.STONE_ORE_REPLACEABLES;
 
-public class FirstaidMod implements ModInitializer {
+public class FirstAidMod implements ModInitializer {
 	public static final String MODID = "firstaid";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
 
