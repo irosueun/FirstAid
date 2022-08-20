@@ -1,4 +1,4 @@
-package com.example.example_mod;
+package com.irosueun.firstaid;
 
 import net.minecraft.util.math.Box;
 

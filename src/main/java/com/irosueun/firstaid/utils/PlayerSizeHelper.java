@@ -1,6 +1,6 @@
-package com.example.example_mod.utils;
+package com.irosueun.firstaid.utils;
 
-import com.example.example_mod.AlignedBoundingBox;
+import com.irosueun.firstaid.AlignedBoundingBox;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.player.PlayerEntity;

@@ -1,6 +1,5 @@
-package com.example.example_mod.mixin;
+package com.irosueun.firstaid.mixin;
 
-import com.example.example_mod.ExampleMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
