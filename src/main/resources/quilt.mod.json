@@ -20,7 +20,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.irosueun.firstaid.FirstaidMod"
+			"init": "com.irosueun.firstaid.FirstAidMod"
 		},
 		"depends": [
 			{

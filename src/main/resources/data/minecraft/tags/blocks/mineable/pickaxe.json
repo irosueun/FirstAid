@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "firstaid:heart_crystal_ore",
-    "firstaid:deepslate_heart_crystal_ore"
+    "firstaid:heart_crystal_shard_ore",
+    "firstaid:deepslate_heart_crystal_shard_ore"
   ]
 }
