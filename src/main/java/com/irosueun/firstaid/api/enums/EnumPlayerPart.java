@@ -1,4 +1,4 @@
-package com.irosueun.firstaid.api.enums;
+package com.example.example_mod.api.enums;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.entity.EquipmentSlot;

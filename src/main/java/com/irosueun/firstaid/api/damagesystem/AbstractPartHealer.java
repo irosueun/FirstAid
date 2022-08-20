@@ -1,4 +1,4 @@
-package com.irosueun.firstaid.api.damagesystem;
+package com.example.example_mod.api.damagesystem;
 
 import net.minecraft.item.ItemStack;
 
