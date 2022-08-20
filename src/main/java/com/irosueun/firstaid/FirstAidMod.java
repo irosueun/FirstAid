@@ -40,7 +40,7 @@ public class FirstAidMod implements ModInitializer {
 	public static final Block DEEPSLATE_HEART_CRYSTAL_SHARD_ORE = new ExperienceDroppingBlock(QuiltBlockSettings.of(Material.STONE).strength(4.5F, 3.0F).requiresTool(), UniformIntProvider.create(10, 15));
 
 	public static final ConfiguredFeature<?, ?> CONFIGURED_HEART_CRYSTAL_SHARD_FEATURE = Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(MODID, "heart_crystal_shard_configured"), new ConfiguredFeature(Feature.ORE, new OreFeatureConfig(List.of(OreFeatureConfig.createTarget(DEEPSLATE_ORE_REPLACEABLES, DEEPSLATE_HEART_CRYSTAL_SHARD_ORE.getDefaultState()), OreFeatureConfig.createTarget(STONE_ORE_REPLACEABLES, HEART_CRYSTAL_SHARD_ORE.getDefaultState())), 1)));
-	public static final PlacedFeature PLACED_HEART_CRYSTAL_SHARD_FEATURE = new PlacedFeature(Holder.createDirect(CONFIGURED_HEART_CRYSTAL_SHARD_FEATURE), List.of(CountPlacementModifier.create(20), InSquarePlacementModifier.getInstance(), HeightRangePlacementModifier.createUniform(YOffset.getBottom(), YOffset.fixed(64)), BiomePlacementModifier.getInstance()));
+	public static final PlacedFeature PLACED_HEART_CRYSTAL_SHARD_FEATURE = new PlacedFeature(Holder.createDirect(CONFIGURED_HEART_CRYSTAL_SHARD_FEATURE), List.of(CountPlacementModifier.create(50), InSquarePlacementModifier.getInstance(), HeightRangePlacementModifier.createUniform(YOffset.getBottom(), YOffset.fixed(64)), BiomePlacementModifier.getInstance()));
 
 	public static final Item HEART_CRYSTAL_SHARD = new Item(new QuiltItemSettings().group(ItemGroup.MISC));
 
